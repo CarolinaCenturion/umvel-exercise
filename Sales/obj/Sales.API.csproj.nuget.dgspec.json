@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales\\Sales.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\Sales.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\Sales.Application.csproj",
+        "projectName": "Sales.Application",
+        "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\Sales.Application.csproj",
+        "packagesPath": "C:\\Users\\dalia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj",
+        "projectName": "Sales.Data",
+        "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj",
+        "packagesPath": "C:\\Users\\dalia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\Sales.Domain.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\Sales.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\Sales.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\Sales.Domain.csproj",
+        "projectName": "Sales.Domain",
+        "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\Sales.Domain.csproj",
+        "packagesPath": "C:\\Users\\dalia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\Sales.ServiceProvider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\Sales.ServiceProvider.csproj",
+        "projectName": "Sales.ServiceProvider",
+        "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\Sales.ServiceProvider.csproj",
+        "packagesPath": "C:\\Users\\dalia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\Sales.Application.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Application\\Sales.Application.csproj"
+              },
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales\\Sales.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales\\Sales.API.csproj",
+        "projectName": "Sales.API",
+        "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales\\Sales.API.csproj",
+        "packagesPath": "C:\\Users\\dalia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dalia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.Data\\Sales.Data.csproj"
+              },
+              "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\Sales.ServiceProvider.csproj": {
+                "projectPath": "C:\\Users\\dalia\\Documents\\Workspace\\Sales\\Sales.ServiceProvider\\Sales.ServiceProvider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
