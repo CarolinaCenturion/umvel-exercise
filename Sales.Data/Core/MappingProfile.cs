@@ -20,6 +20,7 @@ namespace Sales.Data.Core
             CreateMap<Sale, SaleListDTO>()
                .ForMember(m => m.Customer, e => e.MapFrom(x => x.Customer));
             CreateMap<Customer, CreateCustomerDTO>();
+            CreateMap<Product, CreateProductDTO>();
 
         }
     }
